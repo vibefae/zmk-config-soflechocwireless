@@ -59,6 +59,23 @@
 
 /* END temporary RGB support section */
 
+// Encoder resolutions
+&left_encoder {
+    steps = <20>;
+};
+&right_encoder {
+    steps = <20>;
+};
+
+// nice!view display fix
+&nice_view_spi {
+  cs-gpios = <&pro_micro 0 GPIO_ACTIVE_HIGH>;
+};
+
+
+/ {
+    sensors {
+        triggers-per-rotation = <8>;
 / {
     keymap {
         compatible = "zmk,keymap";
