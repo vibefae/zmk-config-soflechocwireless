@@ -90,12 +90,6 @@
   cs-gpios = <&pro_micro 4 GPIO_ACTIVE_HIGH>;
 };
 
-
-/ {
-    sensors {
-        triggers-per-rotation = <8>;
-};
-
 / {
     keymap {
         compatible = "zmk,keymap";
