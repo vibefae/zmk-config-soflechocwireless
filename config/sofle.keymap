@@ -93,10 +93,10 @@
 
             bindings = <
 &kp GRAVE  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp LC(UP_ARROW)  &kp LG(SPACE)  &none                                                &none            &none  &none          &none             &bt BT_PRV    &bt BT_NXT
-&none      &none                 &none                 &none             &none          &rgb_ug RGB_HUD                                      &rgb_ug RGB_HUI  &none  &none          &none             &none         &none
-&none      &none                 &none                 &kp LG(X)         &kp LG(LS(V))  &rgb_ug RGB_SPD                                      &rgb_ug RGB_SPI  &none  &none          &none             &kp COLON     &kp DOUBLE_QUOTES
-&none      &kp K_UNDO            &kp LG(A)             &kp K_COPY        &kp K_PASTE    &rgb_ug RGB_BRD  &rgb_ug RGB_EFF    &rgb_ug RGB_TOG  &rgb_ug RGB_BRI  &none  &kp LESS_THAN  &kp GREATER_THAN  &kp QUESTION  &none
-                                 &none                 &none             &none          &none            &none              &none            &none            &none  &none          &none
+&none      &none                 &none                 &none             &none          &rgb_ug RGB_HUI                                      &rgb_ug RGB_HUD  &none  &none          &none             &none         &none
+&none      &none                 &none                 &kp LG(X)         &kp LG(LS(V))  &rgb_ug RGB_SPI                                      &rgb_ug RGB_SPD  &none  &none          &none             &kp COLON     &kp DOUBLE_QUOTES
+&none      &kp K_UNDO            &kp LG(A)             &kp K_COPY        &kp K_PASTE    &rgb_ug RGB_BRI  &rgb_ug RGB_EFF    &rgb_ug RGB_TOG  &rgb_ug RGB_BRD  &none  &kp LESS_THAN  &kp GREATER_THAN  &kp QUESTION  &none
+                                 &none                 &none             &none          &none            &none              &ext_power EP_ON &none            &none  &none          &none
             >;
 
             sensor-bindings =
