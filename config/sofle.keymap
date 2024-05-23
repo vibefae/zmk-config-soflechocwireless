@@ -11,8 +11,9 @@
 #include <dt-bindings/zmk/rgb.h>
 #include <dt-bindings/zmk/ext_power.h>
 
-&nice_view_spi: &spi0 {
+&nice_view_spi { &spi0 {
     cs-gpios = <&pro_micro 1 GPIO_ACTIVE_HIGH>;
+}
 };
 
 /*
