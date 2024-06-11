@@ -63,9 +63,9 @@
 /* END temporary RGB support section */
 // Encoder resolutions
 
-&left_encoder { steps = <15>; };
+&left_encoder { steps = <20>; };
 
-&right_encoder { steps = <15>; };
+&right_encoder { steps = <20>; };
 
 / {
     keymap {
