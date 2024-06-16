@@ -102,11 +102,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&none      &kp F1     &kp F2    &kp F3       &kp F4    &kp F5                               &kp F6     &kp F7    &kp F8           &kp F9     &kp F10   &kp F11
-&kp GRAVE  &kp N1     &kp N2    &kp N3       &kp N4    &kp N5                               &kp N6     &kp N7    &kp N8           &kp N9     &kp N0    &kp F12
-&none      &kp EXCL   &kp AT    &kp HASH     &kp DLLR  &kp PRCNT                            &kp CARET  &kp AMPS  &kp KP_MULTIPLY  &kp LPAR   &kp RPAR  &kp PIPE
-&none      &kp EQUAL  &kp PLUS  &kp KP_PLUS  &kp LBRC  &kp RBRC   &out OUT_TOG    &mkp MB1  &kp LBKT   &kp RBKT  &kp SEMI         &kp COLON  &kp BSLH  &none
-                      &none     &none        &none     &none      &none           &none     &none      &none     &none            &none
+&none      &kp F1     &kp F2    &kp F3       &kp F4    &kp F5                                &kp F6     &kp F7    &kp F8           &kp F9     &kp F10   &kp F11
+&kp GRAVE  &kp N1     &kp N2    &kp N3       &kp N4    &kp N5                                &kp N6     &kp N7    &kp N8           &kp N9     &kp N0    &kp F12
+&none      &kp EXCL   &kp AT    &kp HASH     &kp DLLR  &kp PRCNT                             &kp CARET  &kp AMPS  &kp KP_MULTIPLY  &kp LPAR   &kp RPAR  &kp PIPE
+&none      &kp EQUAL  &kp PLUS  &kp KP_PLUS  &kp LBRC  &kp RBRC   &out OUT_TOG    &mkp RCLK  &kp LBKT   &kp RBKT  &kp SEMI         &kp COLON  &kp BSLH  &none
+                      &none     &none        &none     &none      &none           &none      &none      &none     &none            &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -121,11 +121,11 @@
             //              |      |       |       |      |      |   |      |      |      |       |      |
 
             bindings = <
-&kp GRAVE  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC     &kp LC(UP_ARROW)  &kp LG(SPACE)  &none                                                 &none            &none  &none          &none             &bt BT_PRV    &bt BT_NXT
-&none      &none                 &none                    &none             &none          &rgb_ug RGB_HUI                                       &rgb_ug RGB_HUD  &none  &none          &none             &none         &kp BACKSPACE
-&none      &kp LG(A)             &kp LG(LS(KP_NUMBER_4))  &none             &none          &rgb_ug RGB_SPI                                       &rgb_ug RGB_SPD  &none  &kp RG(K)      &none             &kp COLON     &kp DOUBLE_QUOTES
-&none      &kp K_UNDO            &kp LG(X)                &kp K_COPY        &kp K_PASTE    &rgb_ug RGB_BRI  &rgb_ug RGB_EFF    &rgb_ug RGB_TOG   &rgb_ug RGB_BRD  &none  &kp LESS_THAN  &kp GREATER_THAN  &kp QUESTION  &none
-                                 &none                    &none             &kp LG(LS(V))  &none            &kp GLOBE          &ext_power EP_ON  &none            &none  &none          &none
+&kp GRAVE  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC     &kp LC(UP_ARROW)  &kp LG(SPACE)  &none                                                 &none            &none          &none          &bt BT_CLR        &bt BT_PRV    &bt BT_NXT
+&none      &none                 &none                    &none             &none          &rgb_ug RGB_HUI                                       &rgb_ug RGB_HUD  &kp AMPERSAND  &kp ASTERISK   &none             &none         &kp BACKSPACE
+&none      &kp LG(A)             &kp LG(LS(KP_NUMBER_4))  &none             &none          &rgb_ug RGB_SPI                                       &rgb_ug RGB_SPD  &none          &kp RG(K)      &none             &kp COLON     &kp DOUBLE_QUOTES
+&none      &kp K_UNDO            &kp LG(X)                &kp K_COPY        &kp K_PASTE    &rgb_ug RGB_BRI  &rgb_ug RGB_EFF    &rgb_ug RGB_TOG   &rgb_ug RGB_BRD  &none          &kp LESS_THAN  &kp GREATER_THAN  &kp QUESTION  &none
+                                 &none                    &none             &kp LG(LS(V))  &none            &kp GLOBE          &ext_power EP_ON  &none            &none          &none          &none
             >;
 
             sensor-bindings =
