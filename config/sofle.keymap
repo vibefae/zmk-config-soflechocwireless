@@ -172,13 +172,13 @@
             bindings = <&kp LS(T) &kp Y &kp P &kp E>;
         };
 
-        lcthe: the {
+        lcthe: lcthe {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp T &kp H &kp E>;
         };
 
-        ucThe: The {
+        ucThe: ucThe {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LS(T) &kp H &kp E>;
