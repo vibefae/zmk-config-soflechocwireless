@@ -186,14 +186,14 @@
             label = "EACT";
         };
 
-        the: the {
+        lcthe: the {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp T &kp H &kp E>;
             label = "THE";
         };
 
-        The: The {
+        ucThe: The {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LS(T) &kp H &kp E>;
@@ -321,9 +321,9 @@
             bindings = <&EASQ>, <&EASQs>;
         };
 
-        EAforms: EAforms {
+        EAformscycle: EAformscycle {
             compatible = "zmk,behavior-tap-dance";
-            label = "EAFORMS";
+            label = "EAFORMSCYCLE";
             #binding-cells = <0>;
             bindings =
                 <&advoform>,
@@ -334,18 +334,18 @@
                 <&Form>;
         };
 
-        searchorreport: searchorreport {
+        searchorreportcycle: searchorreportcycle {
             compatible = "zmk,behavior-tap-dance";
-            label = "SEARCHORREPORT";
+            label = "SEARCHORREPORTCYCLE";
             #binding-cells = <0>;
             bindings = <&CreateList>, <&EASS>, <&EASL>, <&Report>;
         };
 
-        theThe: theThe {
+        theTheCycle: theTheCycle {
             compatible = "zmk,behavior-tap-dance";
-            label = "THETHE";
+            label = "THETHECYCLE";
             #binding-cells = <0>;
-            bindings = <&the>, <&The>;
+            bindings = <&lcthe>, <&ucThe>;
         };
     };
 
@@ -416,11 +416,11 @@
 
         layer_3 {
             bindings = <
-&ACcycle  &EACampaign      &EAOA        &none  &none  &rgb_ug RGB_COLOR_HSB(302,32,81)                                      &rgb_ug RGB_COLOR_HSB(174,29,75)  &none         &none     &none   &none       &none
-&SCcycle  &Type            &none        &none  &none  &rgb_ug RGB_HUI                                                       &rgb_ug RGB_HUD                   &EveryAction  &Toolbox  &Asana  &Miroboard  &kp LC(BACKSPACE)
-&SQcycle  &EATE            &EmailCycle  &none  &none  &rgb_ug RGB_SPI                                                       &rgb_ug RGB_SPD                   &theThe       &none     &none   &none       &none
-&EAforms  &searchorreport  &none        &none  &none  &rgb_ug RGB_BRI                   &rgb_ug RGB_EFF    &rgb_ug RGB_TOG  &rgb_ug RGB_BRD                   &none         &none     &none   &none       &none
-                           &none        &none  &none  &layercycle                       &kp SPACE          &kp SPACE        &layercycleback                   &none         &none     &none
+&ACcycle       &EACampaign           &EAOA        &none  &none  &rgb_ug RGB_COLOR_HSB(302,32,81)                                      &rgb_ug RGB_COLOR_HSB(174,29,75)  &none         &none     &none   &none       &none
+&SCcycle       &Type                 &none        &none  &none  &rgb_ug RGB_HUI                                                       &rgb_ug RGB_HUD                   &EveryAction  &Toolbox  &Asana  &Miroboard  &kp LC(BACKSPACE)
+&SQcycle       &EATE                 &EmailCycle  &none  &none  &rgb_ug RGB_SPI                                                       &rgb_ug RGB_SPD                   &theTheCycle  &none     &none   &none       &none
+&EAformscycle  &searchorreportcycle  &none        &none  &none  &rgb_ug RGB_BRI                   &rgb_ug RGB_EFF    &rgb_ug RGB_TOG  &rgb_ug RGB_BRD                   &none         &none     &none   &none       &none
+                                     &none        &none  &none  &layercycle                       &kp SPACE          &kp SPACE        &layercycleback                   &none         &none     &none
             >;
 
             sensor-bindings =
