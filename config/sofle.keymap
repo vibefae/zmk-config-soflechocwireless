@@ -284,8 +284,6 @@
             label = "LAYERCYCLE";
             #binding-cells = <0>;
             bindings = <&to 1>, <&to 2>, <&to 3>, <&to 0>;
-
-            tapping-term-ms = <200>;
         };
 
         EmailCycle: EmailCycle {
@@ -293,8 +291,6 @@
             label = "EMAILCYCLE";
             #binding-cells = <0>;
             bindings = <&workemail1>, <&workemail2>;
-
-            tapping-term-ms = <200>;
         };
 
         layercycleback: layercycleback {
@@ -302,8 +298,6 @@
             label = "LAYERCYCLEBACK";
             #binding-cells = <0>;
             bindings = <&to 0>, <&to 3>, <&to 2>, <&to 1>;
-
-            tapping-term-ms = <200>;
         };
 
         ACcycle: ACcycle {
@@ -311,15 +305,12 @@
             label = "ACCYCLE";
             #binding-cells = <0>;
             bindings = <&EAAC>, <&EAACs>;
-
-            tapping-term-ms = <200>;
         };
 
         SCcycle: SCcycle {
             compatible = "zmk,behavior-tap-dance";
             label = "SCCYCLE";
             #binding-cells = <0>;
-            tapping-term-ms = <200>;
             bindings = <&EASC>, <&EASCs>;
         };
 
