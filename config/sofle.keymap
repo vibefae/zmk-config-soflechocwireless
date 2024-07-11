@@ -366,11 +366,11 @@
             //              |      |       |       |      |      |   |      |      |      |       |      |
 
             bindings = <
-&kp GRAVE  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp LC(UP_ARROW)  &kp LG(SPACE)   &none                                           &none          &none          &none          &bt BT_CLR        &bt BT_PRV    &bt BT_NXT
-&none      &none                 &none                 &none             &kp LG(LS(N5))  &kp LG(X)                                       &kp RG(A)      &kp AMPERSAND  &kp ASTERISK   &none             &none         &kp BACKSPACE
-&none      &kp LG(A)             &kp LG(LS(N4))        &none             &none           &kp LG(C)                                       &kp RG(Z)      &none          &kp RG(K)      &none             &kp COLON     &kp DOUBLE_QUOTES
-&soft_off  &kp K_UNDO            &kp LG(X)             &kp K_COPY        &kp K_PASTE     &kp LG(V)  &rgb_ug RGB_EFF    &rgb_ug RGB_TOG   &kp RG(RS(Z))  &none          &kp LESS_THAN  &kp GREATER_THAN  &kp QUESTION  &none
-                                 &none                 &none             &kp LG(LS(V))   &none      &kp GLOBE          &ext_power EP_ON  &none          &none          &none          &none
+&kp GRAVE  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp LC(UP_ARROW)  &kp LG(SPACE)   &none                                             &none            &none          &none          &bt BT_CLR        &bt BT_PRV    &bt BT_NXT
+&none      &none                 &none                 &none             &kp LG(LS(N5))  &kp LG(X)                                         &kp RG(A)        &kp AMPERSAND  &kp ASTERISK   &none             &none         &kp BACKSPACE
+&none      &kp LG(A)             &kp LG(LS(N4))        &none             &none           &kp LG(C)                                         &kp RG(Z)        &none          &kp RG(K)      &none             &kp COLON     &kp DOUBLE_QUOTES
+&soft_off  &kp K_UNDO            &kp LG(X)             &kp K_COPY        &kp K_PASTE     &kp LG(V)    &rgb_ug RGB_EFF    &rgb_ug RGB_TOG   &kp RG(RS(Z))    &none          &kp LESS_THAN  &kp GREATER_THAN  &kp QUESTION  &none
+                                 &none                 &none             &kp LG(LS(V))   &layercycle  &kp GLOBE          &ext_power EP_ON  &layercycleback  &none          &none          &none
             >;
 
             sensor-bindings =
