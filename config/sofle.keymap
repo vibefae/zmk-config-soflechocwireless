@@ -73,7 +73,7 @@
 
         sticky3 {
             bindings = <&tog 3>;
-            key-positions = <54 55>;
+            key-positions = <53 56>;
         };
     };
 
