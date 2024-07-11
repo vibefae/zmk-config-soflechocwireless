@@ -92,238 +92,204 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp M &kp A &kp R &kp I &kp A &kp M &kp AT &kp C &kp A &kp I &kp T &kp L &kp I &kp N &kp E &kp L &kp E &kp E &kp DOT &kp C &kp O &kp M>;
-            label = "WORKEMAIL1";
         };
 
         workemail2: workemail2 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp M &kp A &kp R &kp I &kp A &kp M &kp AT &kp C &kp L &kp C &kp T &kp O &kp O &kp L &kp B &kp O &kp X &kp DOT &kp O &kp R &kp G>;
-            label = "WORKEMAIL2";
         };
 
         EveryAction: EveryAction {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LS(E) &kp V &kp E &kp R &kp Y &kp LS(A) &kp C &kp T &kp I &kp O &kp N>;
-            label = "EVERYACTION";
         };
 
         Toolbox: Toolbox {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LS(C) &kp LS(L) &kp LS(C) &kp SPACE &kp LS(T) &kp O &kp O &kp L &kp B &kp O &kp X>;
-            label = "TOOLBOX";
         };
 
         Asana: Asana {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LS(A) &kp S &kp A &kp N &kp A>;
-            label = "ASANA";
         };
 
         Miroboard: Miroboard {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LS(M) &kp I &kp R &kp O &kp SPACE &kp B &kp O &kp A &kp R &kp D>;
-            label = "MIROBOARD";
         };
 
         EAACs: EAACs {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LS(A) &kp C &kp T &kp I &kp V &kp I &kp S &kp T &kp SPACE &kp LS(C) &kp O &kp D &kp E &kp S>;
-            label = "EAACS";
         };
 
         EAAC: EAAC {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LS(A) &kp C &kp T &kp I &kp V &kp I &kp S &kp T &kp SPACE &kp LS(C) &kp O &kp D &kp E>;
-            label = "EAAC";
         };
 
         EASQs: EASQs {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LS(S) &kp U &kp R &kp V &kp E &kp Y &kp SPACE &kp LS(Q) &kp U &kp E &kp S &kp T &kp I &kp O &kp N &kp S>;
-            label = "EASQS";
         };
 
         EASQ: EASQ {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LS(S) &kp U &kp R &kp V &kp E &kp Y &kp SPACE &kp LS(Q) &kp U &kp E &kp S &kp T &kp I &kp O &kp N>;
-            label = "EASQ";
         };
 
         EASCs: EASCs {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LS(S) &kp O &kp U &kp R &kp C &kp E &kp SPACE &kp LS(C) &kp O &kp D &kp E &kp S>;
-            label = "EASCS";
         };
 
         EASC: EASC {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LS(S) &kp O &kp U &kp R &kp C &kp E &kp SPACE &kp LS(C) &kp O &kp D &kp E>;
-            label = "EASC";
         };
 
         EACampaign: EACampaign {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LS(C) &kp A &kp M &kp P &kp A &kp I &kp G &kp N>;
-            label = "EACAMPAIGN";
         };
 
         Type: EACT {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LS(T) &kp Y &kp P &kp E>;
-            label = "EACT";
         };
 
         lcthe: the {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp T &kp H &kp E>;
-            label = "THE";
         };
 
         ucThe: The {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LS(T) &kp H &kp E>;
-            label = "THE";
         };
 
         EATE: EATE {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LS(T) &kp A &kp R &kp G &kp E &kp T &kp E &kp D &kp SPACE &kp LS(E) &kp M &kp A &kp I &kp L>;
-            label = "EATE";
         };
 
         EAOA: EAOA {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LS(O) &kp N &kp L &kp I &kp N &kp E &kp SPACE &kp LS(A) &kp C &kp T &kp I &kp O &kp N &kp S>;
-            label = "EAOA";
         };
 
         advoform: advoform {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LS(A) &kp D &kp V &kp O &kp C &kp A &kp C &kp Y>;
-            label = "ADVOFORM";
         };
 
         Volunteer: VolunteerForm {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LS(V) &kp O &kp L &kp U &kp N &kp T &kp E &kp E &kp R>;
-            label = "VOLUNTEERFORM";
         };
 
         SignUp: SignUp {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LS(S) &kp I &kp G &kp N &kp SPACE &kp LS(U) &kp P>;
-            label = "SIGNUP";
         };
 
         Event: Event {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LS(E) &kp V &kp E &kp N &kp T>;
-            label = "EVENT";
         };
 
         Form: Form {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LS(F) &kp O &kp R &kp M>;
-            label = "FORM";
         };
 
         CreateList: CreateList {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LS(C) &kp R &kp E &kp A &kp T &kp E &kp SPACE &kp A &kp SPACE &kp LS(L) &kp I &kp S &kp T>;
-            label = "CREATELIST";
         };
 
         EASS: EASS {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LS(S) &kp A &kp V &kp E &kp D &kp SPACE &kp LS(S) &kp E &kp A &kp R &kp C &kp H>;
-            label = "EASS";
         };
 
         EASL: EASL {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LS(S) &kp A &kp V &kp E &kp D &kp SPACE &kp LS(L) &kp I &kp S &kp T>;
-            label = "EASL";
         };
 
         Report: Report {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LS(R) &kp E &kp P &kp O &kp R &kp T>;
-            label = "REPORT";
         };
     };
 
     behaviors {
         layercycle: layercycle {
             compatible = "zmk,behavior-tap-dance";
-            label = "LAYERCYCLE";
             #binding-cells = <0>;
             bindings = <&to 1>, <&to 2>, <&to 3>, <&to 0>;
         };
 
         EmailCycle: EmailCycle {
             compatible = "zmk,behavior-tap-dance";
-            label = "EMAILCYCLE";
             #binding-cells = <0>;
             bindings = <&workemail1>, <&workemail2>;
         };
 
         layercycleback: layercycleback {
             compatible = "zmk,behavior-tap-dance";
-            label = "LAYERCYCLEBACK";
             #binding-cells = <0>;
             bindings = <&to 0>, <&to 3>, <&to 2>, <&to 1>;
         };
 
         ACcycle: ACcycle {
             compatible = "zmk,behavior-tap-dance";
-            label = "ACCYCLE";
             #binding-cells = <0>;
             bindings = <&EAAC>, <&EAACs>;
         };
 
         SCcycle: SCcycle {
             compatible = "zmk,behavior-tap-dance";
-            label = "SCCYCLE";
             #binding-cells = <0>;
             bindings = <&EASC>, <&EASCs>;
         };
 
         SQcycle: SQcycle {
             compatible = "zmk,behavior-tap-dance";
-            label = "SQCYCLE";
             #binding-cells = <0>;
             bindings = <&EASQ>, <&EASQs>;
         };
 
         EAformscycle: EAformscycle {
             compatible = "zmk,behavior-tap-dance";
-            label = "EAFORMSCYCLE";
             #binding-cells = <0>;
             bindings =
                 <&advoform>,
@@ -336,14 +302,12 @@
 
         searchorreportcycle: searchorreportcycle {
             compatible = "zmk,behavior-tap-dance";
-            label = "SEARCHORREPORTCYCLE";
             #binding-cells = <0>;
             bindings = <&CreateList>, <&EASS>, <&EASL>, <&Report>;
         };
 
         theTheCycle: theTheCycle {
             compatible = "zmk,behavior-tap-dance";
-            label = "THETHECYCLE";
             #binding-cells = <0>;
             bindings = <&lcthe>, <&ucThe>;
         };
