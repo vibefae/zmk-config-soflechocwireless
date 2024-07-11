@@ -68,6 +68,296 @@
 &right_encoder { steps = <20>; };
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        sticky1 {
+            bindings = <&sl 1>;
+            key-positions = <54 53>;
+        };
+
+        sticky2 {
+            bindings = <&sl 2>;
+            key-positions = <55 56>;
+        };
+
+        sticky3 {
+            bindings = <&sl 3>;
+            key-positions = <54 55>;
+        };
+    };
+
+    macros {
+        workemail1: workemail1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp M &kp A &kp R &kp I &kp A &kp M &kp AT &kp C &kp A &kp I &kp T &kp L &kp I &kp N &kp E &kp L &kp E &kp E &kp DOT &kp C &kp O &kp M>;
+            label = "WORKEMAIL1";
+        };
+
+        workemail2: workemail2 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp M &kp A &kp R &kp I &kp A &kp M &kp AT &kp C &kp L &kp C &kp T &kp O &kp O &kp L &kp B &kp O &kp X &kp DOT &kp O &kp R &kp G>;
+            label = "WORKEMAIL2";
+        };
+
+        EveryAction: EveryAction {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(E) &kp V &kp E &kp R &kp Y &kp LS(A) &kp C &kp T &kp I &kp O &kp N>;
+            label = "EVERYACTION";
+        };
+
+        Toolbox: Toolbox {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(C) &kp LS(L) &kp LS(C) &kp SPACE &kp LS(T) &kp O &kp O &kp L &kp B &kp O &kp X>;
+            label = "TOOLBOX";
+        };
+
+        Asana: Asana {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(A) &kp S &kp A &kp N &kp A>;
+            label = "ASANA";
+        };
+
+        Miroboard: Miroboard {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(M) &kp I &kp R &kp O &kp SPACE &kp B &kp O &kp A &kp R &kp D>;
+            label = "MIROBOARD";
+        };
+
+        EAACs: EAACs {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(A) &kp C &kp T &kp I &kp V &kp I &kp S &kp T &kp SPACE &kp LS(C) &kp O &kp D &kp E &kp S>;
+            label = "EAACS";
+        };
+
+        EAAC: EAAC {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(A) &kp C &kp T &kp I &kp V &kp I &kp S &kp T &kp SPACE &kp LS(C) &kp O &kp D &kp E>;
+            label = "EAAC";
+        };
+
+        EASQs: EASQs {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(S) &kp U &kp R &kp V &kp E &kp Y &kp SPACE &kp LS(Q) &kp U &kp E &kp S &kp T &kp I &kp O &kp N &kp S>;
+            label = "EASQS";
+        };
+
+        EASQ: EASQ {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(S) &kp U &kp R &kp V &kp E &kp Y &kp SPACE &kp LS(Q) &kp U &kp E &kp S &kp T &kp I &kp O &kp N>;
+            label = "EASQ";
+        };
+
+        EASCs: EASCs {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(S) &kp O &kp U &kp R &kp C &kp E &kp SPACE &kp LS(C) &kp O &kp D &kp E &kp S>;
+            label = "EASCS";
+        };
+
+        EASC: EASC {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(S) &kp O &kp U &kp R &kp C &kp E &kp SPACE &kp LS(C) &kp O &kp D &kp E>;
+            label = "EASC";
+        };
+
+        EACampaign: EACampaign {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(C) &kp A &kp M &kp P &kp A &kp I &kp G &kp N>;
+            label = "EACAMPAIGN";
+        };
+
+        Type: EACT {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(T) &kp Y &kp P &kp E>;
+            label = "EACT";
+        };
+
+        the: the {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp T &kp H &kp E>;
+            label = "THE";
+        };
+
+        The: The {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(T) &kp H &kp E>;
+            label = "THE";
+        };
+
+        EATE: EATE {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(T) &kp A &kp R &kp G &kp E &kp T &kp E &kp D &kp SPACE &kp LS(E) &kp M &kp A &kp I &kp L>;
+            label = "EATE";
+        };
+
+        EAOA: EAOA {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(O) &kp N &kp L &kp I &kp N &kp E &kp SPACE &kp LS(A) &kp C &kp T &kp I &kp O &kp N &kp S>;
+            label = "EAOA";
+        };
+
+        advoform: advoform {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(A) &kp D &kp V &kp O &kp C &kp A &kp C &kp Y>;
+            label = "ADVOFORM";
+        };
+
+        Volunteer: VolunteerForm {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(V) &kp O &kp L &kp U &kp N &kp T &kp E &kp E &kp R>;
+            label = "VOLUNTEERFORM";
+        };
+
+        SignUp: SignUp {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(S) &kp I &kp G &kp N &kp SPACE &kp LS(U) &kp P>;
+            label = "SIGNUP";
+        };
+
+        Event: Event {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(E) &kp V &kp E &kp N &kp T>;
+            label = "EVENT";
+        };
+
+        Form: Form {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(F) &kp O &kp R &kp M>;
+            label = "FORM";
+        };
+
+        CreateList: CreateList {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(C) &kp R &kp E &kp A &kp T &kp E &kp SPACE &kp A &kp SPACE &kp LS(L) &kp I &kp S &kp T>;
+            label = "CREATELIST";
+        };
+
+        EASS: EASS {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(S) &kp A &kp V &kp E &kp D &kp SPACE &kp LS(S) &kp E &kp A &kp R &kp C &kp H>;
+            label = "EASS";
+        };
+
+        EASL: EASL {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(S) &kp A &kp V &kp E &kp D &kp SPACE &kp LS(L) &kp I &kp S &kp T>;
+            label = "EASL";
+        };
+
+        Report: Report {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(R) &kp E &kp P &kp O &kp R &kp T>;
+            label = "REPORT";
+        };
+    };
+
+    behaviors {
+        layercycle: layercycle {
+            compatible = "zmk,behavior-tap-dance";
+            label = "LAYERCYCLE";
+            #binding-cells = <0>;
+            bindings = <&to 1>, <&to 2>, <&to 3>, <&to 0>;
+
+            tapping-term-ms = <200>;
+        };
+
+        EmailCycle: EmailCycle {
+            compatible = "zmk,behavior-tap-dance";
+            label = "EMAILCYCLE";
+            #binding-cells = <0>;
+            bindings = <&workemail1>, <&workemail2>;
+
+            tapping-term-ms = <200>;
+        };
+
+        layercycleback: layercycleback {
+            compatible = "zmk,behavior-tap-dance";
+            label = "LAYERCYCLEBACK";
+            #binding-cells = <0>;
+            bindings = <&to 0>, <&to 3>, <&to 2>, <&to 1>;
+
+            tapping-term-ms = <200>;
+        };
+
+        ACcycle: ACcycle {
+            compatible = "zmk,behavior-tap-dance";
+            label = "ACCYCLE";
+            #binding-cells = <0>;
+            bindings = <&EAAC>, <&EAACs>;
+
+            tapping-term-ms = <200>;
+        };
+
+        SCcycle: SCcycle {
+            compatible = "zmk,behavior-tap-dance";
+            label = "SCCYCLE";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&EASC>, <&EASCs>;
+        };
+
+        SQcycle: SQcycle {
+            compatible = "zmk,behavior-tap-dance";
+            label = "SQCYCLE";
+            #binding-cells = <0>;
+            bindings = <&EASQ>, <&EASQs>;
+        };
+
+        EAforms: EAforms {
+            compatible = "zmk,behavior-tap-dance";
+            label = "EAFORMS";
+            #binding-cells = <0>;
+            bindings =
+                <&advoform>,
+                <&Volunteer>,
+                <&SignUp>,
+                <&Event>,
+                <&EAOA>,
+                <&Form>;
+        };
+
+        searchorreport: searchorreport {
+            compatible = "zmk,behavior-tap-dance";
+            label = "SEARCHORREPORT";
+            #binding-cells = <0>;
+            bindings = <&CreateList>, <&EASS>, <&EASL>, <&Report>;
+        };
+
+        theThe: theThe {
+            compatible = "zmk,behavior-tap-dance";
+            label = "THETHE";
+            #binding-cells = <0>;
+            bindings = <&the>, <&The>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -80,11 +370,11 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |        | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&kp ESC           &kp N1  &kp N2        &kp N3            &kp N4        &kp N5                            &kp N6  &kp N7             &kp N8         &kp N9     &kp N0    &kp BACKSPACE
-&kp TAB           &kp Q   &kp W         &kp E             &kp R         &kp T                             &kp Y   &kp U              &kp I          &kp O      &kp P     &kp RET
-&kp LSHIFT        &kp A   &kp S         &kp D             &kp F         &kp G                             &kp H   &kp J              &kp K          &kp L      &kp SEMI  &kp SQT
-&kp LEFT_CONTROL  &kp Z   &kp X         &kp C             &kp V         &kp B   &sys_reset    &sys_reset  &kp N   &kp M              &kp COMMA      &kp DOT    &kp FSLH  &kp RIGHT_SHIFT
-                          &kp LEFT_ALT  &kp LEFT_COMMAND  &kp CAPSLOCK  &mo 1   &kp SPACE     &kp SPACE   &mo 2   &kp RIGHT_COMMAND  &kp RIGHT_ALT  &kp MINUS
+&kp ESC           &kp N1  &kp N2        &kp N3            &kp N4        &kp N5                                   &kp N6           &kp N7             &kp N8         &kp N9     &kp N0    &kp BACKSPACE
+&kp TAB           &kp Q   &kp W         &kp E             &kp R         &kp T                                    &kp Y            &kp U              &kp I          &kp O      &kp P     &kp RET
+&kp LSHIFT        &kp A   &kp S         &kp D             &kp F         &kp G                                    &kp H            &kp J              &kp K          &kp L      &kp SEMI  &kp SQT
+&kp LEFT_CONTROL  &kp Z   &kp X         &kp C             &kp V         &kp B        &bootloader    &bootloader  &kp N            &kp M              &kp COMMA      &kp DOT    &kp FSLH  &kp RIGHT_SHIFT
+                          &kp LEFT_ALT  &kp LEFT_COMMAND  &kp CAPSLOCK  &layercycle  &kp SPACE      &kp SPACE    &layercycleback  &kp RIGHT_COMMAND  &kp RIGHT_ALT  &kp MINUS
             >;
 
             sensor-bindings =
@@ -102,14 +392,14 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&none      &kp F1     &kp F2    &kp F3       &kp F4    &kp F5                                &kp F6     &kp F7    &kp F8           &kp F9     &kp F10   &kp F11
-&kp GRAVE  &kp N1     &kp N2    &kp N3       &kp N4    &kp N5                                &kp N6     &kp N7    &kp N8           &kp N9     &kp N0    &kp F12
-&none      &kp EXCL   &kp AT    &kp HASH     &kp DLLR  &kp PRCNT                             &kp CARET  &kp AMPS  &kp KP_MULTIPLY  &kp LPAR   &kp RPAR  &kp PIPE
-&none      &kp EQUAL  &kp PLUS  &kp KP_PLUS  &kp LBRC  &kp RBRC   &out OUT_TOG    &mkp RCLK  &kp LBKT   &kp RBKT  &kp SEMI         &kp COLON  &kp BSLH  &none
-                      &none     &none        &none     &none      &none           &none      &none      &none     &none            &none
+&none       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4          &kp N5                                            &kp F1     &kp F2    &kp F3          &kp F4         &kp F5            &kp F6
+&kp GRAVE   &kp N6        &kp N7        &kp NUMBER_8  &kp N9                &kp N0                                            &kp F7     &kp F8    &kp F9          &kp F10        &kp F11           &kp F12
+&none       &kp EXCL      &kp AT        &kp HASH      &kp DLLR              &kp PRCNT                                         &kp MINUS  &kp PLUS  &kp EQUAL       &kp LESS_THAN  &kp GREATER_THAN  &kp UNDERSCORE
+&sys_reset  &kp CARET     &kp AMPS      &kp ASTRK     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &mkp LCLK       &mkp RCLK  &kp LBKT   &kp RBKT  &kp LEFT_BRACE  &kp RBRC       &kp BSLH          &sys_reset
+                          &none         &none         &none                 &none                  &out OUT_TOG    &none      &none      &none     &none           &kp PIPE
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp END HOME>, <&inc_dec_kp PG_UP PG_DN>;
         };
 
         layer2 {
@@ -121,16 +411,30 @@
             //              |      |       |       |      |      |   |      |      |      |       |      |
 
             bindings = <
-&kp GRAVE  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC     &kp LC(UP_ARROW)  &kp LG(SPACE)  &none                                                 &none            &none          &none          &bt BT_CLR        &bt BT_PRV    &bt BT_NXT
-&none      &none                 &none                    &none             &none          &rgb_ug RGB_HUI                                       &rgb_ug RGB_HUD  &kp AMPERSAND  &kp ASTERISK   &none             &none         &kp BACKSPACE
-&none      &kp LG(A)             &kp LG(LS(KP_NUMBER_4))  &none             &none          &rgb_ug RGB_SPI                                       &rgb_ug RGB_SPD  &none          &kp RG(K)      &none             &kp COLON     &kp DOUBLE_QUOTES
-&none      &kp K_UNDO            &kp LG(X)                &kp K_COPY        &kp K_PASTE    &rgb_ug RGB_BRI  &rgb_ug RGB_EFF    &rgb_ug RGB_TOG   &rgb_ug RGB_BRD  &none          &kp LESS_THAN  &kp GREATER_THAN  &kp QUESTION  &none
-                                 &none                    &none             &kp LG(LS(V))  &none            &kp GLOBE          &ext_power EP_ON  &none            &none          &none          &none
+&kp GRAVE  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp LC(UP_ARROW)  &kp LG(SPACE)   &none                                           &none          &none          &none          &bt BT_CLR        &bt BT_PRV    &bt BT_NXT
+&none      &none                 &none                 &none             &kp LG(LS(N5))  &kp LG(X)                                       &kp RG(A)      &kp AMPERSAND  &kp ASTERISK   &none             &none         &kp BACKSPACE
+&none      &kp LG(A)             &kp LG(LS(N4))        &none             &none           &kp LG(C)                                       &kp RG(Z)      &none          &kp RG(K)      &none             &kp COLON     &kp DOUBLE_QUOTES
+&soft_off  &kp K_UNDO            &kp LG(X)             &kp K_COPY        &kp K_PASTE     &kp LG(V)  &rgb_ug RGB_EFF    &rgb_ug RGB_TOG   &kp RG(RS(Z))  &none          &kp LESS_THAN  &kp GREATER_THAN  &kp QUESTION  &none
+                                 &none                 &none             &kp LG(LS(V))   &none      &kp GLOBE          &ext_power EP_ON  &none          &none          &none          &none
             >;
 
             sensor-bindings =
-                <&inc_dec_kp RIGHT LEFT>,
-                <&inc_dec_kp PG_UP PG_DN>;
+                <&inc_dec_kp BACKSPACE DELETE>,
+                <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+        };
+
+        layer_3 {
+            bindings = <
+&ACcycle  &EACampaign      &EAOA        &none  &none  &rgb_ug RGB_COLOR_HSB(302,32,81)                                      &rgb_ug RGB_COLOR_HSB(174,29,75)  &none         &none     &none   &none       &none
+&SCcycle  &Type            &none        &none  &none  &rgb_ug RGB_HUI                                                       &rgb_ug RGB_HUD                   &EveryAction  &Toolbox  &Asana  &Miroboard  &kp LC(BACKSPACE)
+&SQcycle  &EATE            &EmailCycle  &none  &none  &rgb_ug RGB_SPI                                                       &rgb_ug RGB_SPD                   &theThe       &none     &none   &none       &none
+&EAforms  &searchorreport  &none        &none  &none  &rgb_ug RGB_BRI                   &rgb_ug RGB_EFF    &rgb_ug RGB_TOG  &rgb_ug RGB_BRD                   &none         &none     &none   &none       &none
+                           &none        &none  &none  &layercycle                       &kp SPACE          &kp SPACE        &layercycleback                   &none         &none     &none
+            >;
+
+            sensor-bindings =
+                <&inc_dec_kp BACKSPACE DELETE>,
+                <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
     };
 };
