@@ -76,12 +76,12 @@
             key-positions = <53 56>;
         };
 
-        resetleft {
+        resetmain {
             bindings = <&sys_reset>;
             key-positions = <0 5>;
         };
 
-        resetright {
+        resetperipheral {
             bindings = <&sys_reset>;
             key-positions = <6 11>;
         };
