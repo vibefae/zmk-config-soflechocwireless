@@ -75,6 +75,16 @@
             bindings = <&tog 3>;
             key-positions = <53 56>;
         };
+
+        resetleft {
+            bindings = <&sys_reset>;
+            key-positions = <0 5>;
+        };
+
+        resetright {
+            bindings = <&sys_reset>;
+            key-positions = <6 11>;
+        };
     };
 
     macros {
