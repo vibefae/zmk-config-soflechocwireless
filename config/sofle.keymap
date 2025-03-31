@@ -251,6 +251,82 @@
             #binding-cells = <0>;
             bindings = <&kp LS(R) &kp E &kp P &kp O &kp R &kp T>;
         };
+         HTMLbp: HTMLbp {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LT &kp EXCL &kp LS(D) &kp LS(O) &kp LS(C) &kp LS(T) &kp LS(Y) &kp LS(P) &kp LS(E) &kp SPACE &kp H &kp T &kp M &kp L &kp GT &kp RET &kp LT &kp H &kp T &kp M &kp L &kp SPACE &kp L &kp A &kp N &kp G &kp EQUAL &kp DQT &kp E &kp N &kp DQT &kp GT &kp RET &kp LT &kp H &kp E &kp A &kp D &kp GT &kp RET &kp LT &kp M &kp E &kp T &kp A &kp SPACE &kp C &kp H &kp A &kp R &kp S &kp E &kp T &kp EQUAL &kp DQT &kp LS(U) &kp LS(T) &kp LS(F) &kp MINUS &kp N8 &kp DQT &kp GT &kp RET &kp LT &kp M &kp E &kp T &kp A &kp SPACE &kp N &kp A &kp M &kp E &kp EQUAL &kp DQT &kp V &kp I &kp E &kp W &kp P &kp O &kp R &kp T &kp DQT &kp SPACE &kp C &kp O &kp N &kp T &kp E &kp N &kp T &kp EQUAL &kp DQT &kp W &kp I &kp D &kp T &kp H &kp EQUAL &kp D &kp E &kp V &kp I &kp C &kp E &kp MINUS &kp W &kp I &kp D &kp T &kp H &kp COMMA &kp SPACE &kp I &kp N &kp I &kp T &kp I &kp A &kp L &kp MINUS &kp S &kp C &kp A &kp L &kp E &kp EQUAL &kp N1 &kp DOT &kp N0 &kp DQT &kp GT &kp RET &kp LT &kp L &kp I &kp N &kp K &kp SPACE &kp R &kp E &kp L &kp EQUAL &kp DQT &kp S &kp T &kp Y &kp L &kp E &kp S &kp H &kp E &kp E &kp T &kp DQT &kp SPACE &kp H &kp R &kp E &kp F &kp EQUAL &kp DQT &kp S &kp T &kp Y &kp L &kp E &kp S &kp DOT &kp C &kp S &kp S &kp DQT &kp GT &kp RET &kp LT &kp FSLH &kp H &kp E &kp A &kp D &kp GT &kp RET &kp LT &kp B &kp O &kp D &kp Y &kp GT &kp RET &kp LT &kp H &kp E &kp A &kp D &kp E &kp R &kp GT &kp LT &kp H &kp N1 &kp GT &kp LT &kp FSLH &kp H &kp N1 &kp GT &kp LT &kp FSLH &kp H &kp E &kp A &kp D &kp E &kp R &kp GT &kp RET &kp LT &kp M &kp A &kp I &kp N &kp GT &kp RET &kp LT &kp P &kp GT &kp LT &kp FSLH &kp P &kp GT &kp RET &kp LT &kp FSLH &kp M &kp A &kp I &kp N &kp GT &kp RET &kp LT &kp F &kp O &kp O &kp T &kp E &kp R &kp GT &kp LT &kp P &kp GT &kp LT &kp FSLH &kp P &kp GT &kp LT &kp FSLH &kp F &kp O &kp O &kp T &kp E &kp R &kp GT &kp RET &kp LT &kp S &kp C &kp R &kp I &kp P &kp T &kp SPACE &kp S &kp R &kp C &kp EQUAL &kp DQT &kp S &kp C &kp R &kp I &kp P &kp T &kp S &kp DOT &kp J &kp S &kp DQT &kp GT &kp LT &kp FSLH &kp S &kp C &kp R &kp I &kp P &kp T &kp GT &kp RET &kp LT &kp FSLH &kp B &kp O &kp D &kp Y &kp GT &kp RET &kp LT &kp FSLH &kp H &kp T &kp M &kp L &kp GT>;
+            label = "HTMLBP";
+        };
+
+        class: class {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp C &kp L &kp A &kp S &kp S &kp EQUAL &kp DQT &kp DQT>;
+            label = "CLASS";
+        };
+
+        id: id {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp I &kp D &kp EQUAL &kp DQT &kp DQT>;
+            label = "ID";
+        };
+
+        div: div {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LT &kp D &kp I &kp V &kp GT &kp LT &kp FSLH &kp D &kp I &kp V &kp GT>;
+            label = "DIV";
+        };
+
+        htmllink: htmllink {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LT &kp A &kp SPACE &kp H &kp R &kp E &kp F &kp EQUAL &kp DQT &kp DQT &kp SPACE &kp T &kp A &kp R &kp G &kp E &kp T &kp EQUAL &kp DQT &kp UNDER &kp B &kp L &kp A &kp N &kp K &kp DQT &kp GT &kp LS(T) &kp E &kp X &kp T &kp LT &kp FSLH &kp A &kp GT>;
+            label = "HTMLLINK";
+        };
+
+        img: img {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LT &kp I &kp M &kp G &kp SPACE &kp S &kp R &kp C &kp EQUAL &kp DQT &kp DQT &kp SPACE &kp A &kp L &kp T &kp EQUAL &kp DQT &kp DQT &kp SPACE &kp FSLH &kp GT>;
+            label = "IMG";
+        };
+
+        CSSmq: CSSbp {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp AT &kp M &kp E &kp D &kp I &kp A &kp SPACE &kp S &kp C &kp R &kp E &kp E &kp N &kp SPACE &kp A &kp N &kp D &kp SPACE &kp LPAR &kp M &kp I &kp N &kp MINUS &kp W &kp I &kp D &kp T &kp H &kp COLON &kp SPACE &kp N4 &kp N8 &kp N0 &kp P &kp X &kp RPAR &kp SPACE &kp RBKT &kp RET &kp RET &kp RBRC>;
+            label = "CSSBP";
+        };
+
+        CSSz: CSSz {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp Z &kp MINUS &kp I &kp N &kp D &kp E &kp X &kp COLON &kp SPACE &kp N0 &kp SEMI>;
+            label = "CSSZ";
+        };
+
+        CSSposition: CSSposition {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp P &kp O &kp S &kp I &kp T &kp I &kp O &kp N &kp COLON &kp SPACE &kp R &kp E &kp L &kp A &kp T &kp I &kp V &kp E &kp SEMI>;
+            label = "CSSPOSITION";
+        };
+
+        CSSflexcol: CSSflexcol {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp STAR &kp SPACE &kp RBKT &kp RET &kp D &kp I &kp S &kp P &kp L &kp A &kp Y &kp COLON &kp SPACE &kp F &kp L &kp E &kp X &kp SEMI &kp RET &kp F &kp L &kp E &kp X &kp MINUS &kp D &kp I &kp R &kp E &kp C &kp T &kp I &kp O &kp N &kp COLON &kp SPACE &kp C &kp O &kp L &kp U &kp M &kp N &kp SEMI &kp RET &kp F &kp L &kp E &kp X &kp MINUS &kp W &kp R &kp A &kp P &kp COLON &kp SPACE &kp W &kp R &kp A &kp P &kp SEMI &kp RET &kp J &kp U &kp S &kp T &kp I &kp F &kp Y &kp MINUS &kp C &kp O &kp N &kp T &kp E &kp N &kp T &kp COLON &kp SPACE &kp S &kp P &kp A &kp C &kp E &kp MINUS &kp E &kp V &kp E &kp N &kp L &kp Y &kp SEMI &kp RET &kp RBRC>;
+            label = "CSSFLEXCOL";
+        };
+
+        FormBP: FormBP {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LT &kp F &kp O &kp R &kp M &kp SPACE &kp A &kp C &kp T &kp I &kp O &kp N &kp EQUAL &kp DQT &kp DQT &kp GT &kp RET &kp LT &kp F &kp I &kp E &kp L &kp D &kp S &kp E &kp T &kp SPACE &kp C &kp L &kp A &kp S &kp S &kp EQUAL &kp DQT &kp DQT &kp GT &kp RET &kp LT &kp L &kp A &kp B &kp E &kp L &kp SPACE &kp F &kp O &kp R &kp EQUAL &kp DQT &kp DQT &kp GT &kp LT &kp FSLH &kp L &kp A &kp B &kp E &kp L &kp GT &kp RET &kp LT &kp I &kp N &kp P &kp U &kp T &kp SPACE &kp T &kp Y &kp P &kp E &kp EQUAL &kp DQT &kp DQT &kp SPACE &kp I &kp D &kp EQUAL &kp DQT &kp DQT &kp SPACE &kp N &kp A &kp M &kp E &kp EQUAL &kp DQT &kp DQT &kp SPACE &kp P &kp L &kp A &kp C &kp E &kp H &kp O &kp L &kp D &kp E &kp R &kp EQUAL &kp DQT &kp DQT &kp GT &kp RET &kp LT &kp FSLH &kp F &kp I &kp E &kp L &kp D &kp S &kp E &kp T &kp GT &kp RET &kp LT &kp I &kp N &kp P &kp U &kp T &kp SPACE &kp T &kp Y &kp P &kp E &kp EQUAL &kp DQT &kp S &kp U &kp B &kp M &kp I &kp T &kp DQT &kp SPACE &kp V &kp A &kp L &kp U &kp E &kp EQUAL &kp DQT &kp LS(S) &kp U &kp B &kp M &kp I &kp T &kp DQT &kp GT &kp RET &kp LT &kp FSLH &kp F &kp O &kp R &kp M &kp GT>;
+            label = "FORMBP";
+        };
     };
 
     behaviors {
@@ -319,40 +395,29 @@
             #binding-cells = <0>;
             bindings = <&lcthe>, <&ucThe>;
         };
+    
     };
 
     keymap {
         compatible = "zmk,keymap";
 
         base {
-            // ------------------------------------------------------------------------------------------------------------------
-            // |  `    |  1  |  2  |  3   |  4   |  5   |                         |  6   |  7    |  8    |  9   |   0   |       |
-            // |  ESC  |  Q  |  W  |  E   |  R   |  T   |                         |  Y   |  U    |  I    |  O   |   P   | BKSPC |
-            // |  TAB  |  A  |  S  |  D   |  F   |  G   |                         |  H   |  J    |  K    |  L   |   ;   |   '   |
-            // | SHIFT |  Z  |  X  |  C   |  V   |  B   |  MUTE  |        | ExtPw |  N   |  M    |  ,    |  .   |   /   | SHIFT |
-            //               | GUI | ALT  | CTRL | LOWER|  ENTER |        | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
 &kp ESC           &kp N1  &kp N2        &kp N3            &kp N4        &kp N5                              &kp N6  &kp N7             &kp N8         &kp N9     &kp N0    &kp BACKSPACE
 &kp TAB           &kp Q   &kp W         &kp E             &kp R         &kp T                               &kp Y   &kp U              &kp I          &kp O      &kp P     &kp RET
 &kp LSHIFT        &kp A   &kp S         &kp D             &kp F         &kp G                               &kp H   &kp J              &kp K          &kp L      &kp SEMI  &kp SQT
-&kp LEFT_CONTROL  &kp Z   &kp X         &kp C             &kp V         &kp B   &bootloader    &bootloader  &kp N   &kp M              &kp COMMA      &kp DOT    &kp FSLH  &kp RIGHT_SHIFT
+&kp LEFT_CONTROL  &kp Z   &kp X         &kp C             &kp V         &kp B   &layercycle    &mkp LCLK    &kp N   &kp M              &kp COMMA      &kp DOT    &kp FSLH  &kp RIGHT_SHIFT
                           &kp LEFT_ALT  &kp LEFT_COMMAND  &kp CAPSLOCK  &mo 1   &kp SPACE      &kp SPACE    &mo 2   &kp RIGHT_COMMAND  &kp RIGHT_ALT  &kp MINUS
             >;
 
             sensor-bindings =
-                <&inc_dec_kp RIGHT_ARROW LEFT_ARROW>,
+                <&inc_dec_kp LEFT_ARROW RIGHT_ARROW>,
                 <&inc_dec_kp UP_ARROW DOWN_ARROW>;
         };
 
         layer1 {
-            // TODO: Some binds are waiting for shifted keycode support.
-            // ------------------------------------------------------------------------------------------------------------
-            // |       |  F1 |  F2 |  F3  |  F4  |  F5  |                   |  F6  |  F7   |  F8   |  F9  |  F10  |  F11  |
-            // | `     |   1 |   2 |   3  |   4  |   5  |                   |   6  |   7   |   8   |   9  |    0  |  F12  |
-            // |       |  !  |  @  |  #   |  $   |  %   |                   |  ^   |  &    |  *    |  (   |   )   |   |   |
-            // |       |  =  |  -  |  +   |  {   |  }   |        |  |       |  [   |  ]    |  ;    |  :   |   \   |       |
-            //               |     |      |      |      |        |  |       |      |       |       |      |
+
 
             bindings = <
 &none       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4          &kp N5                                            &kp F1           &kp F2    &kp F3          &kp F4         &kp F5            &kp F6
@@ -366,19 +431,13 @@
         };
 
         layer2 {
-            // ------------------------------------------------------------------------------------------------------------
-            // |BTCLR| BT1  | BT2  |  BT3  |  BT4  |  BT5 |                 |      |      |       |      |       |       |
-            // |     | INS  | PSCR | GUI   |       |      |                 | PGUP |      |   ^   |      |       |       |
-            // |     | ALT  | CTRL | SHIFT |       | CAPS |                 | PGDN |   <- |   v   |  ->  |  DEL  | BKSPC |
-            // |     | UNDO | CUT  | COPY  | PASTE |      |      |   | RGB  |      |      |       |      |       |       |
-            //              |      |       |       |      |      |   |      |      |      |       |      |
 
             bindings = <
-&kp GRAVE  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp LC(UP_ARROW)  &kp LG(SPACE)   &none                                             &none            &none          &none          &bt BT_CLR        &bt BT_PRV    &bt BT_NXT
-&none      &none                 &none                 &none             &kp LG(LS(N5))  &kp LG(X)                                         &kp RG(A)        &kp AMPERSAND  &kp ASTERISK   &none             &none         &kp BACKSPACE
-&none      &kp LG(A)             &kp LG(LS(N4))        &none             &none           &kp LG(C)                                         &kp RG(Z)        &none          &kp RG(K)      &none             &kp COLON     &kp DOUBLE_QUOTES
-&soft_off  &kp K_UNDO            &kp LG(X)             &kp K_COPY        &kp K_PASTE     &kp LG(V)    &rgb_ug RGB_EFF    &rgb_ug RGB_TOG   &kp RG(RS(Z))    &none          &kp LESS_THAN  &kp GREATER_THAN  &kp QUESTION  &none
-                                 &none                 &none             &kp LG(LS(V))   &layercycle  &kp GLOBE          &ext_power EP_ON  &layercycleback  &none          &none          &none
+        &kp GRAVE  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp LC(UP_ARROW)  &kp LG(SPACE)   &none                                     &kp LESS_THAN    &kp GREATER_THAN  &kp LEFT_BRACE  &kp RIGHT_BRACE   &bt BT_PRV    &bt BT_NXT
+&none      &none                 &none                 &none             &kp LG(LS(N5))  &kp LG(X)                                         &kp RG(A)        &kp AMPERSAND     &kp ASTERISK    &none             &none         &kp BACKSPACE
+&none      &kp LG(A)             &kp LG(LS(N4))        &none             &none           &kp LG(C)                                         &kp RG(Z)        &none             &kp RG(K)       &none             &kp COLON     &kp DOUBLE_QUOTES
+&soft_off  &kp K_UNDO            &kp LG(X)             &kp K_COPY        &kp K_PASTE     &kp LG(V)    &rgb_ug RGB_EFF    &rgb_ug RGB_TOG   &kp RG(RS(Z))    &none             &kp LESS_THAN   &kp GREATER_THAN  &kp QUESTION  &none
+                                 &none                 &none             &kp LG(LS(V))   &layercycle  &kp GLOBE          &ext_power EP_ON  &layercycleback  &none             &none           &none
             >;
 
             sensor-bindings =
