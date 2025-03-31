@@ -388,7 +388,7 @@
 
         layer_3 {
             bindings = <
-&ACcycle       &EACampaign           &EAOA        &none  &none  &rgb_ug RGB_SAI                                      &rgb_ug RGB_SAD  &none         &none     &none   &none       &none
+&ACcycle       &EACampaign           &EAOA        &none  &none  &rgb_ug RGB_SAI                                      &rgb_ug RGB_SAD  &none         &none     &none   &none       &studio_unlock
 &SCcycle       &Type                 &none        &none  &none  &rgb_ug RGB_HUI                                      &rgb_ug RGB_HUD  &EveryAction  &Toolbox  &Asana  &Miroboard  &kp LC(BACKSPACE)
 &SQcycle       &EATE                 &EmailCycle  &none  &none  &rgb_ug RGB_SPI                                      &rgb_ug RGB_SPD  &theTheCycle  &none     &none   &none       &none
 &EAformscycle  &searchorreportcycle  &none        &none  &none  &rgb_ug RGB_BRI  &rgb_ug RGB_EFF    &rgb_ug RGB_TOG  &rgb_ug RGB_BRD  &none         &none     &none   &none       &none
